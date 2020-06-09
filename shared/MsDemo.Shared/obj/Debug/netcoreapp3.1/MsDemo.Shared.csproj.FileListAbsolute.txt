@@ -1,0 +1,9 @@
+C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\shared\MsDemo.Shared\bin\Debug\netcoreapp3.1\MsDemo.Shared.deps.json
+C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\shared\MsDemo.Shared\bin\Debug\netcoreapp3.1\MsDemo.Shared.dll
+C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\shared\MsDemo.Shared\bin\Debug\netcoreapp3.1\MsDemo.Shared.pdb
+C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\shared\MsDemo.Shared\obj\Debug\netcoreapp3.1\MsDemo.Shared.AssemblyInfoInputs.cache
+C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\shared\MsDemo.Shared\obj\Debug\netcoreapp3.1\MsDemo.Shared.AssemblyInfo.cs
+C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\shared\MsDemo.Shared\obj\Debug\netcoreapp3.1\MsDemo.Shared.csproj.CoreCompileInputs.cache
+C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\shared\MsDemo.Shared\obj\Debug\netcoreapp3.1\MsDemo.Shared.dll
+C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\shared\MsDemo.Shared\obj\Debug\netcoreapp3.1\MsDemo.Shared.pdb
+C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\shared\MsDemo.Shared\obj\Debug\netcoreapp3.1\MsDemo.Shared.csprojAssemblyReference.cache
