@@ -17,10 +17,14 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.201
-    - name: Build with dotnet
-      run: dotnet build ./MicroserviceDemo.sln --configuration Release
-    - name: Test with dotnet
-      run: dotnet test ./MicroserviceDemo.sln --configuration Release
+    #- name: Build with dotnet
+    #  run: dotnet build ./MicroserviceDemo.sln --configuration Release
+    #- name: Test with dotnet
+    #  run: dotnet test ./MicroserviceDemo.sln --configuration Release
+    - name: Build All
+      run: .\build-all.ps1
+      working-directory: .\build
+      shell: powershell
 
     - name: Slack Notification for Unit Tests
       uses: bryan-nice/slack-notification@master
