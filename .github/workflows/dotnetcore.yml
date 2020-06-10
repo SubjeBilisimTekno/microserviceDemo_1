@@ -24,7 +24,6 @@ jobs:
     - name: Build All
       run: .\build-all.ps1
       working-directory: .\build
-      shell: powershell
 
     - name: Slack Notification for Unit Tests
       uses: bryan-nice/slack-notification@master
