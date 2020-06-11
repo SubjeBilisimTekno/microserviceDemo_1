@@ -42,6 +42,8 @@
           "Microsoft.AspNetCore.Connections.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.CookiePolicy": "3.1.0.0",
           "Microsoft.AspNetCore.Cors": "3.1.0.0",
+          "Microsoft.AspNetCore.Cryptography.Internal": "3.1.0.0",
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "3.1.0.0",
           "Microsoft.AspNetCore.DataProtection.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.DataProtection": "3.1.0.0",
           "Microsoft.AspNetCore.DataProtection.Extensions": "3.1.0.0",
@@ -101,6 +103,8 @@
           "Microsoft.AspNetCore.WebSockets": "3.1.0.0",
           "Microsoft.AspNetCore.WebUtilities": "3.1.0.0",
           "Microsoft.CSharp.Reference": "4.0.0.0",
+          "Microsoft.Extensions.Caching.Abstractions": "3.1.0.0",
+          "Microsoft.Extensions.Caching.Memory": "3.1.0.0",
           "Microsoft.Extensions.Configuration.Ini": "3.1.0.0",
           "Microsoft.Extensions.Configuration.KeyPerFile": "3.1.0.0",
           "Microsoft.Extensions.Configuration.Xml": "3.1.0.0",
@@ -109,6 +113,7 @@
           "Microsoft.Extensions.FileProviders.Embedded": "3.1.0.0",
           "Microsoft.Extensions.Hosting": "3.1.0.0",
           "Microsoft.Extensions.Http": "3.1.0.0",
+          "Microsoft.Extensions.Identity.Core": "3.1.0.0",
           "Microsoft.Extensions.Identity.Stores": "3.1.0.0",
           "Microsoft.Extensions.Logging.Configuration": "3.1.0.0",
           "Microsoft.Extensions.Logging.Console": "3.1.0.0",
@@ -124,6 +129,7 @@
           "Microsoft.VisualBasic.Core": "10.0.5.0",
           "Microsoft.VisualBasic": "10.0.0.0",
           "Microsoft.Win32.Primitives": "4.1.2.0",
+          "Microsoft.Win32.Registry": "4.1.3.0",
           "mscorlib": "4.0.0.0",
           "netstandard": "2.1.0.0",
           "System.AppContext": "4.2.2.0",
@@ -148,6 +154,7 @@
           "System.Diagnostics.Contracts": "4.0.4.0",
           "System.Diagnostics.Debug.Reference": "4.1.2.0",
           "System.Diagnostics.DiagnosticSource": "4.0.5.0",
+          "System.Diagnostics.EventLog": "4.0.2.0",
           "System.Diagnostics.FileVersionInfo": "4.0.4.0",
           "System.Diagnostics.Process": "4.2.2.0",
           "System.Diagnostics.StackTrace": "4.1.2.0",
@@ -173,6 +180,7 @@
           "System.IO.FileSystem.Watcher": "4.1.2.0",
           "System.IO.IsolatedStorage": "4.1.2.0",
           "System.IO.MemoryMappedFiles": "4.1.2.0",
+          "System.IO.Pipelines": "4.0.2.0",
           "System.IO.Pipes": "4.1.2.0",
           "System.IO.UnmanagedMemoryStream": "4.1.2.0",
           "System.Linq.Reference": "4.2.2.0",
@@ -228,21 +236,26 @@
           "System.Runtime.Serialization.Json": "4.0.5.0",
           "System.Runtime.Serialization.Primitives": "4.2.2.0",
           "System.Runtime.Serialization.Xml": "4.1.5.0",
+          "System.Security.AccessControl": "4.1.1.0",
           "System.Security.Claims": "4.1.2.0",
           "System.Security.Cryptography.Algorithms": "4.3.2.0",
+          "System.Security.Cryptography.Cng": "4.3.3.0",
           "System.Security.Cryptography.Csp": "4.1.2.0",
           "System.Security.Cryptography.Encoding": "4.1.2.0",
           "System.Security.Cryptography.Primitives": "4.1.2.0",
           "System.Security.Cryptography.X509Certificates": "4.2.2.0",
+          "System.Security.Cryptography.Xml": "4.0.3.0",
           "System.Security": "4.0.0.0",
+          "System.Security.Permissions": "4.0.3.0",
           "System.Security.Principal": "4.1.2.0",
+          "System.Security.Principal.Windows": "4.1.1.0",
           "System.Security.SecureString": "4.1.2.0",
           "System.ServiceModel.Web": "4.0.0.0",
           "System.ServiceProcess": "4.0.0.0",
           "System.Text.Encoding.CodePages.Reference": "4.1.3.0",
           "System.Text.Encoding.Reference": "4.1.2.0",
           "System.Text.Encoding.Extensions": "4.1.2.0",
-          "System.Text.Encodings.Web.Reference": "4.0.5.0",
+          "System.Text.Encodings.Web": "4.0.5.0",
           "System.Text.RegularExpressions": "4.2.2.0",
           "System.Threading.Channels": "4.0.2.0",
           "System.Threading.Reference": "4.1.2.0",
@@ -260,6 +273,7 @@
           "System.Web": "4.0.0.0",
           "System.Web.HttpUtility": "4.0.2.0",
           "System.Windows": "4.0.0.0",
+          "System.Windows.Extensions": "4.0.1.0",
           "System.Xml": "4.0.0.0",
           "System.Xml.Linq": "4.0.0.0",
           "System.Xml.ReaderWriter": "4.2.2.0",
@@ -294,9 +308,6 @@
         }
       },
       "ConfigureAwait.Fody/3.3.1": {
-        "dependencies": {
-          "Fody": "6.0.2"
-        },
         "runtime": {
           "lib/netstandard2.0/ConfigureAwait.dll": {
             "assemblyVersion": "3.3.1.0",
@@ -307,7 +318,6 @@
           "lib/netstandard2.0/ConfigureAwait.dll": {}
         }
       },
-      "Fody/6.0.2": {},
       "JetBrains.Annotations/2019.1.3": {
         "runtime": {
           "lib/netstandard2.0/JetBrains.Annotations.dll": {
@@ -333,31 +343,6 @@
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Cryptography.Internal/3.1.2": {
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll": {
-            "assemblyVersion": "3.1.2.0",
-            "fileVersion": "3.100.220.6801"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Cryptography.KeyDerivation/3.1.2": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.Internal": "3.1.2"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
-            "assemblyVersion": "3.1.2.0",
-            "fileVersion": "3.100.220.6801"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
         }
       },
       "Microsoft.AspNetCore.JsonPatch/3.1.2": {
@@ -589,37 +574,6 @@
         }
       },
       "Microsoft.CSharp/4.7.0": {},
-      "Microsoft.Extensions.Caching.Abstractions/3.1.2": {
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.2"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {
-            "assemblyVersion": "3.1.2.0",
-            "fileVersion": "3.100.220.6706"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Caching.Memory/3.1.2": {
-        "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "3.1.2",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.2",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.2",
-          "Microsoft.Extensions.Options": "3.1.2"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll": {
-            "assemblyVersion": "3.1.2.0",
-            "fileVersion": "3.100.220.6706"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/3.1.2": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.2"
@@ -842,22 +796,6 @@
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Identity.Core/3.1.2": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "3.1.2",
-          "Microsoft.Extensions.Logging": "3.1.2",
-          "Microsoft.Extensions.Options": "3.1.2"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll": {
-            "assemblyVersion": "3.1.2.0",
-            "fileVersion": "3.100.220.6801"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll": {}
         }
       },
       "Microsoft.Extensions.Localization/3.1.2": {
@@ -1267,11 +1205,6 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         }
       },
-      "System.Text.Encodings.Web/4.7.0": {
-        "compile": {
-          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
-        }
-      },
       "System.Text.Json/4.7.1": {
         "runtime": {
           "lib/netcoreapp3.0/System.Text.Json.dll": {
@@ -1308,260 +1241,6 @@
           "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
-      "Volo.Abp.Account.Application/2.9.0": {
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "System.Text.Encodings.Web": "4.7.0",
-          "Volo.Abp.Account.Application.Contracts": "2.9.0",
-          "Volo.Abp.Identity.Application": "2.9.0",
-          "Volo.Abp.UI.Navigation": "2.9.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Account.Application.dll": {
-            "assemblyVersion": "2.9.0.0",
-            "fileVersion": "2.9.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Account.Application.dll": {}
-        }
-      },
-      "Volo.Abp.Account.Application.Contracts/2.9.0": {
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Identity.Application.Contracts": "2.9.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Account.Application.Contracts.dll": {
-            "assemblyVersion": "2.9.0.0",
-            "fileVersion": "2.9.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Account.Application.Contracts.dll": {}
-        }
-      },
-      "Volo.Abp.Caching/2.9.0": {
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Microsoft.Extensions.Caching.Memory": "3.1.2",
-          "Volo.Abp.Json": "2.9.0",
-          "Volo.Abp.MultiTenancy": "2.9.0",
-          "Volo.Abp.Serialization": "2.9.0",
-          "Volo.Abp.Threading": "2.9.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Caching.dll": {
-            "assemblyVersion": "2.9.0.0",
-            "fileVersion": "2.9.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Caching.dll": {}
-        }
-      },
-      "Volo.Abp.Identity.Application/2.9.0": {
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.AutoMapper": "2.9.0",
-          "Volo.Abp.Identity.Application.Contracts": "2.9.0",
-          "Volo.Abp.Identity.Domain": "2.9.0",
-          "Volo.Abp.PermissionManagement.Application": "2.9.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Application.dll": {
-            "assemblyVersion": "2.9.0.0",
-            "fileVersion": "2.9.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Application.dll": {}
-        }
-      },
-      "Volo.Abp.Identity.Application.Contracts/2.9.0": {
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Authorization": "2.9.0",
-          "Volo.Abp.Ddd.Application": "2.9.0",
-          "Volo.Abp.Identity.Domain.Shared": "2.9.0",
-          "Volo.Abp.PermissionManagement.Application.Contracts": "2.9.0",
-          "Volo.Abp.Users.Abstractions": "2.9.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Application.Contracts.dll": {
-            "assemblyVersion": "2.9.0.0",
-            "fileVersion": "2.9.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Application.Contracts.dll": {}
-        }
-      },
-      "Volo.Abp.Identity.Domain/2.9.0": {
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Microsoft.Extensions.Identity.Core": "3.1.2",
-          "Volo.Abp.AutoMapper": "2.9.0",
-          "Volo.Abp.Ddd.Domain": "2.9.0",
-          "Volo.Abp.Identity.Domain.Shared": "2.9.0",
-          "Volo.Abp.Users.Domain": "2.9.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Domain.dll": {
-            "assemblyVersion": "2.9.0.0",
-            "fileVersion": "2.9.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Domain.dll": {}
-        }
-      },
-      "Volo.Abp.Identity.Domain.Shared/2.9.0": {
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Users.Domain.Shared": "2.9.0",
-          "Volo.Abp.Validation": "2.9.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Domain.Shared.dll": {
-            "assemblyVersion": "2.9.0.0",
-            "fileVersion": "2.9.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Domain.Shared.dll": {}
-        }
-      },
-      "Volo.Abp.PermissionManagement.Application/2.9.0": {
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.PermissionManagement.Application.Contracts": "2.9.0",
-          "Volo.Abp.PermissionManagement.Domain": "2.9.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.dll": {
-            "assemblyVersion": "2.9.0.0",
-            "fileVersion": "2.9.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.dll": {}
-        }
-      },
-      "Volo.Abp.PermissionManagement.Application.Contracts/2.9.0": {
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Authorization": "2.9.0",
-          "Volo.Abp.Ddd.Application": "2.9.0",
-          "Volo.Abp.PermissionManagement.Domain.Shared": "2.9.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.Contracts.dll": {
-            "assemblyVersion": "2.9.0.0",
-            "fileVersion": "2.9.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.Contracts.dll": {}
-        }
-      },
-      "Volo.Abp.PermissionManagement.Domain/2.9.0": {
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Authorization": "2.9.0",
-          "Volo.Abp.Caching": "2.9.0",
-          "Volo.Abp.Ddd.Domain": "2.9.0",
-          "Volo.Abp.Json": "2.9.0",
-          "Volo.Abp.PermissionManagement.Domain.Shared": "2.9.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.dll": {
-            "assemblyVersion": "2.9.0.0",
-            "fileVersion": "2.9.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.dll": {}
-        }
-      },
-      "Volo.Abp.PermissionManagement.Domain.Shared/2.9.0": {
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Validation": "2.9.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.Shared.dll": {
-            "assemblyVersion": "2.9.0.0",
-            "fileVersion": "2.9.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.Shared.dll": {}
-        }
-      },
-      "Volo.Abp.Serialization/2.9.0": {
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Core": "2.9.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Serialization.dll": {
-            "assemblyVersion": "2.9.0.0",
-            "fileVersion": "2.9.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Serialization.dll": {}
-        }
-      },
-      "Volo.Abp.Users.Abstractions/2.9.0": {
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.EventBus": "2.9.0",
-          "Volo.Abp.MultiTenancy": "2.9.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Users.Abstractions.dll": {
-            "assemblyVersion": "2.9.0.0",
-            "fileVersion": "2.9.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Users.Abstractions.dll": {}
-        }
-      },
-      "Volo.Abp.Users.Domain/2.9.0": {
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Ddd.Domain": "2.9.0",
-          "Volo.Abp.Users.Abstractions": "2.9.0",
-          "Volo.Abp.Users.Domain.Shared": "2.9.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Users.Domain.dll": {
-            "assemblyVersion": "2.9.0.0",
-            "fileVersion": "2.9.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Users.Domain.dll": {}
-        }
-      },
-      "Volo.Abp.Users.Domain.Shared/2.9.0": {
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Core": "2.9.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Users.Domain.Shared.dll": {
-            "assemblyVersion": "2.9.0.0",
-            "fileVersion": "2.9.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Users.Domain.Shared.dll": {}
-        }
-      },
       "ProductManagement.Application.Contracts/1.0.0": {
         "dependencies": {
           "ProductManagement.Domain.Shared": "1.0.0",
@@ -1576,8 +1255,6 @@
       },
       "ProductManagement.Domain.Shared/1.0.0": {
         "dependencies": {
-          "Volo.Abp.Account.Application": "2.9.0",
-          "Volo.Abp.Account.Application.Contracts": "2.9.0",
           "Volo.Abp.Ddd.Domain": "2.9.0",
           "Volo.Abp.Localization": "2.9.0"
         },
@@ -2258,6 +1935,18 @@
         },
         "compileOnly": true
       },
+      "Microsoft.AspNetCore.Cryptography.Internal/3.1.0.0": {
+        "compile": {
+          "Microsoft.AspNetCore.Cryptography.Internal.dll": {}
+        },
+        "compileOnly": true
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/3.1.0.0": {
+        "compile": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
+        },
+        "compileOnly": true
+      },
       "Microsoft.AspNetCore.DataProtection.Abstractions/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.DataProtection.Abstractions.dll": {}
@@ -2612,6 +2301,18 @@
         },
         "compileOnly": true
       },
+      "Microsoft.Extensions.Caching.Abstractions/3.1.0.0": {
+        "compile": {
+          "Microsoft.Extensions.Caching.Abstractions.dll": {}
+        },
+        "compileOnly": true
+      },
+      "Microsoft.Extensions.Caching.Memory/3.1.0.0": {
+        "compile": {
+          "Microsoft.Extensions.Caching.Memory.dll": {}
+        },
+        "compileOnly": true
+      },
       "Microsoft.Extensions.Configuration.Ini/3.1.0.0": {
         "compile": {
           "Microsoft.Extensions.Configuration.Ini.dll": {}
@@ -2657,6 +2358,12 @@
       "Microsoft.Extensions.Http/3.1.0.0": {
         "compile": {
           "Microsoft.Extensions.Http.dll": {}
+        },
+        "compileOnly": true
+      },
+      "Microsoft.Extensions.Identity.Core/3.1.0.0": {
+        "compile": {
+          "Microsoft.Extensions.Identity.Core.dll": {}
         },
         "compileOnly": true
       },
@@ -2747,6 +2454,12 @@
       "Microsoft.Win32.Primitives/4.1.2.0": {
         "compile": {
           "Microsoft.Win32.Primitives.dll": {}
+        },
+        "compileOnly": true
+      },
+      "Microsoft.Win32.Registry/4.1.3.0": {
+        "compile": {
+          "Microsoft.Win32.Registry.dll": {}
         },
         "compileOnly": true
       },
@@ -2891,6 +2604,12 @@
       "System.Diagnostics.DiagnosticSource/4.0.5.0": {
         "compile": {
           "System.Diagnostics.DiagnosticSource.dll": {}
+        },
+        "compileOnly": true
+      },
+      "System.Diagnostics.EventLog/4.0.2.0": {
+        "compile": {
+          "System.Diagnostics.EventLog.dll": {}
         },
         "compileOnly": true
       },
@@ -3041,6 +2760,12 @@
       "System.IO.MemoryMappedFiles/4.1.2.0": {
         "compile": {
           "System.IO.MemoryMappedFiles.dll": {}
+        },
+        "compileOnly": true
+      },
+      "System.IO.Pipelines/4.0.2.0": {
+        "compile": {
+          "System.IO.Pipelines.dll": {}
         },
         "compileOnly": true
       },
@@ -3374,6 +3099,12 @@
         },
         "compileOnly": true
       },
+      "System.Security.AccessControl/4.1.1.0": {
+        "compile": {
+          "System.Security.AccessControl.dll": {}
+        },
+        "compileOnly": true
+      },
       "System.Security.Claims/4.1.2.0": {
         "compile": {
           "System.Security.Claims.dll": {}
@@ -3383,6 +3114,12 @@
       "System.Security.Cryptography.Algorithms/4.3.2.0": {
         "compile": {
           "System.Security.Cryptography.Algorithms.dll": {}
+        },
+        "compileOnly": true
+      },
+      "System.Security.Cryptography.Cng/4.3.3.0": {
+        "compile": {
+          "System.Security.Cryptography.Cng.dll": {}
         },
         "compileOnly": true
       },
@@ -3410,15 +3147,33 @@
         },
         "compileOnly": true
       },
+      "System.Security.Cryptography.Xml/4.0.3.0": {
+        "compile": {
+          "System.Security.Cryptography.Xml.dll": {}
+        },
+        "compileOnly": true
+      },
       "System.Security/4.0.0.0": {
         "compile": {
           "System.Security.dll": {}
         },
         "compileOnly": true
       },
+      "System.Security.Permissions/4.0.3.0": {
+        "compile": {
+          "System.Security.Permissions.dll": {}
+        },
+        "compileOnly": true
+      },
       "System.Security.Principal/4.1.2.0": {
         "compile": {
           "System.Security.Principal.dll": {}
+        },
+        "compileOnly": true
+      },
+      "System.Security.Principal.Windows/4.1.1.0": {
+        "compile": {
+          "System.Security.Principal.Windows.dll": {}
         },
         "compileOnly": true
       },
@@ -3458,7 +3213,7 @@
         },
         "compileOnly": true
       },
-      "System.Text.Encodings.Web.Reference/4.0.5.0": {
+      "System.Text.Encodings.Web/4.0.5.0": {
         "compile": {
           "System.Text.Encodings.Web.dll": {}
         },
@@ -3566,6 +3321,12 @@
         },
         "compileOnly": true
       },
+      "System.Windows.Extensions/4.0.1.0": {
+        "compile": {
+          "System.Windows.Extensions.dll": {}
+        },
+        "compileOnly": true
+      },
       "System.Xml/4.0.0.0": {
         "compile": {
           "System.Xml.dll": {}
@@ -3648,13 +3409,6 @@
       "path": "configureawait.fody/3.3.1",
       "hashPath": "configureawait.fody.3.3.1.nupkg.sha512"
     },
-    "Fody/6.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Oq9dxiHWkw/tPKu9LSmfp6uuCNDZLDkxwHB0sJuwyQRSmvFSB3Ab54WgCQWIsGDO9Z+va9expamqkKpFfdd1sQ==",
-      "path": "fody/6.0.2",
-      "hashPath": "fody.6.0.2.nupkg.sha512"
-    },
     "JetBrains.Annotations/2019.1.3": {
       "type": "package",
       "serviceable": true,
@@ -3668,20 +3422,6 @@
       "sha512": "sha512-bbu9qMsOdmNjLLaRawhT3OfjFHleK9D2ICGfmjvkMVNyfx42P5NgypOlqKgK6SDoqtex3DisWd4E3nePtohPCw==",
       "path": "microsoft.aspnetcore.authorization/3.1.2",
       "hashPath": "microsoft.aspnetcore.authorization.3.1.2.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Cryptography.Internal/3.1.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Yi69aUt2rZsMor/eIEy7IgDoh/bZ6Lx0ZD3p9FZeU2zw+LIjERghrA8fOJUfpacJxBlWqcf9YkIzD85SSJ0u7Q==",
-      "path": "microsoft.aspnetcore.cryptography.internal/3.1.2",
-      "hashPath": "microsoft.aspnetcore.cryptography.internal.3.1.2.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Cryptography.KeyDerivation/3.1.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-p5ZGlen0a0eIBHBRBj+4XgArONulCZmE4X8rc91n6O4ZneRkLDKvyMiKC9f20t5Bf42cILkj/YjjrcdLYPmcXQ==",
-      "path": "microsoft.aspnetcore.cryptography.keyderivation/3.1.2",
-      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.3.1.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.JsonPatch/3.1.2": {
       "type": "package",
@@ -3766,20 +3506,6 @@
       "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Caching.Abstractions/3.1.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-UfMC7L+8ha05PUAfVpmMS0kb7C1BoOrWxN70706D50qWohXLYgkUsu22oS7zkd9amCPTCmhRm2z/LisN8SESgg==",
-      "path": "microsoft.extensions.caching.abstractions/3.1.2",
-      "hashPath": "microsoft.extensions.caching.abstractions.3.1.2.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Caching.Memory/3.1.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-4O/YgpVhK/ZIYteGy9LyJv+YRcTxLOe7AnMUHBj1m1U40Er1/dbMymFTH1HrRS/fkVB90un24JhG+c1qSWjjjA==",
-      "path": "microsoft.extensions.caching.memory/3.1.2",
-      "hashPath": "microsoft.extensions.caching.memory.3.1.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/3.1.2": {
       "type": "package",
@@ -3892,13 +3618,6 @@
       "sha512": "sha512-oafEsTwy1ed4zycyjzgFet58IW3I/aC1uUJTWpFAs3mjkQzW52LqVlE/9AAW2IVk4q8EPw+GPsiFB17qYksNXQ==",
       "path": "microsoft.extensions.hosting.abstractions/3.1.2",
       "hashPath": "microsoft.extensions.hosting.abstractions.3.1.2.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Identity.Core/3.1.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-C6jXkZ8JbrOl9EI+awhLbPCq61+I4oV7ePErIm8C+Kp8LpVK1HmnUuOZBjyyBsSYk3AazxGYHviquGyyVlOW8A==",
-      "path": "microsoft.extensions.identity.core/3.1.2",
-      "hashPath": "microsoft.extensions.identity.core.3.1.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Localization/3.1.2": {
       "type": "package",
@@ -4208,13 +3927,6 @@
       "path": "system.text.encoding.codepages/4.5.1",
       "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
     },
-    "System.Text.Encodings.Web/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-IJanJWPQvya2sbGStt3Fkdy4IaomUBSadAfYWeJDQw0zclMk9ixSvMeei6cSmTTQ6ZkGIIAbhHZVCoLR7GgX7Q==",
-      "path": "system.text.encodings.web/4.7.0",
-      "hashPath": "system.text.encodings.web.4.7.0.nupkg.sha512"
-    },
     "System.Text.Json/4.7.1": {
       "type": "package",
       "serviceable": true,
@@ -4249,111 +3961,6 @@
       "sha512": "sha512-f0UpF9H+ylj3qjO/l2+Yt0R77FFR327efJwsoXAys6J1fSYFcQPrPVhaGVVWoN79+PVutj0qzj79kuhSPN70gA==",
       "path": "timezoneconverter/3.2.0",
       "hashPath": "timezoneconverter.3.2.0.nupkg.sha512"
-    },
-    "Volo.Abp.Account.Application/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-n/eWT2sMHUf0nkcM9w6lT68plOsS8r34o6jj6AmlW/qAGpcEwe4xFWP5Ic/HQN1qgppf9P5L6jNRROvb8JMi+g==",
-      "path": "volo.abp.account.application/2.9.0",
-      "hashPath": "volo.abp.account.application.2.9.0.nupkg.sha512"
-    },
-    "Volo.Abp.Account.Application.Contracts/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-fnLbKKp6uL9KQR1NaMB4HyhhoCoJT75YHDF0WeA93dzp0AXJ9RoLtfzX5gJhU3K5OIiJM+hpgASC9xCFSJtVbQ==",
-      "path": "volo.abp.account.application.contracts/2.9.0",
-      "hashPath": "volo.abp.account.application.contracts.2.9.0.nupkg.sha512"
-    },
-    "Volo.Abp.Caching/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-DshsWA2CiqLK6uPSeW7hPdEvNgbWXrtG7UQTwvTn+FxwzjJacQnTh/fSUbq4BXuXmpS3r0/rzPW/Ch2bygq/kw==",
-      "path": "volo.abp.caching/2.9.0",
-      "hashPath": "volo.abp.caching.2.9.0.nupkg.sha512"
-    },
-    "Volo.Abp.Identity.Application/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-DjwAIyT6V8dEcuOdAly6gXoDcTIJSDSrjNggZAaP2i9TCStnnnPidIsPnnh1yn6j9W8K2waq+PdFdQWGWimTHQ==",
-      "path": "volo.abp.identity.application/2.9.0",
-      "hashPath": "volo.abp.identity.application.2.9.0.nupkg.sha512"
-    },
-    "Volo.Abp.Identity.Application.Contracts/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-iP0MBbAvxqPuQz3qPfbnzT6gYsKsZ1QkaNQwuxcFlNw12BqHLXktWWxlgyxH/Pa2E/QrF0MoYXnTP3PloahywA==",
-      "path": "volo.abp.identity.application.contracts/2.9.0",
-      "hashPath": "volo.abp.identity.application.contracts.2.9.0.nupkg.sha512"
-    },
-    "Volo.Abp.Identity.Domain/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-3rBNtB3FNeHuzM94Y9oaZ1Eyf/n+5yQIfExQqFfkLSDzQmuKVDc0nHWeenH73oftwyJUNUXHQAopluCwZROQMg==",
-      "path": "volo.abp.identity.domain/2.9.0",
-      "hashPath": "volo.abp.identity.domain.2.9.0.nupkg.sha512"
-    },
-    "Volo.Abp.Identity.Domain.Shared/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pMI2RBBUFW44HTVNHNAqc5IYbX0qzWeOt1F4YLVxqD/xvHBYjS+mUj/ZH9CYPA6AN8RC/1FqG7iGE5TsVIaRvQ==",
-      "path": "volo.abp.identity.domain.shared/2.9.0",
-      "hashPath": "volo.abp.identity.domain.shared.2.9.0.nupkg.sha512"
-    },
-    "Volo.Abp.PermissionManagement.Application/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-vRdOEblHfuN4IPqrfoTySptMSjeeEahF7S6VC8Ur/OCwHU01Rp9u2R3TrYiN1Q/f9idE4AnYZ4GVSbfG3BmqUQ==",
-      "path": "volo.abp.permissionmanagement.application/2.9.0",
-      "hashPath": "volo.abp.permissionmanagement.application.2.9.0.nupkg.sha512"
-    },
-    "Volo.Abp.PermissionManagement.Application.Contracts/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-BhS7Y+T1reAL7cO9UYzEOYh8b4tKKzam23IudrWOoegNi0Kui/bfV6WnJh77MQhESwJAO9csskizDl6hKqnFyw==",
-      "path": "volo.abp.permissionmanagement.application.contracts/2.9.0",
-      "hashPath": "volo.abp.permissionmanagement.application.contracts.2.9.0.nupkg.sha512"
-    },
-    "Volo.Abp.PermissionManagement.Domain/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-3/7q7RApXhk4pQ8Y0IGwfIBIXak+ltLVPR5f5us/gXO6CbIVQgTI0R0T+3pZ0WJKsazWT7BRcwC1rkC/nhgYPA==",
-      "path": "volo.abp.permissionmanagement.domain/2.9.0",
-      "hashPath": "volo.abp.permissionmanagement.domain.2.9.0.nupkg.sha512"
-    },
-    "Volo.Abp.PermissionManagement.Domain.Shared/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-3fUO1SZbRyIdBW6bC/ZXAAOzI3YNJpGDZRHSd+pbe3V/+vt2YPHGQKHieEey5yOwL03opKgUlOBnBKlg9pJaTQ==",
-      "path": "volo.abp.permissionmanagement.domain.shared/2.9.0",
-      "hashPath": "volo.abp.permissionmanagement.domain.shared.2.9.0.nupkg.sha512"
-    },
-    "Volo.Abp.Serialization/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-UsmXI0jfmAZhClxMz6+cbm/04rBrzU82Jr4c2JrtUy1dvR80p4WSAGTEZtRILb3mgrx16n/U/W72imrwLswEmg==",
-      "path": "volo.abp.serialization/2.9.0",
-      "hashPath": "volo.abp.serialization.2.9.0.nupkg.sha512"
-    },
-    "Volo.Abp.Users.Abstractions/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-aMJzbBFdD6LkFOSf8ix8nPDD11VQOERb7dTflrVPAPjLDW2pOgH0wuJz8hiBmD3yttLaqRVJUBGOTwuTzvyzMg==",
-      "path": "volo.abp.users.abstractions/2.9.0",
-      "hashPath": "volo.abp.users.abstractions.2.9.0.nupkg.sha512"
-    },
-    "Volo.Abp.Users.Domain/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-mrTcYRQ8bujoyfdJkGwRUP9bwvbgsjeuEkRsfTpyUP6HvfcN9nOmVKEis4f/anVcdmByolojNwmOpOnH+6fX8w==",
-      "path": "volo.abp.users.domain/2.9.0",
-      "hashPath": "volo.abp.users.domain.2.9.0.nupkg.sha512"
-    },
-    "Volo.Abp.Users.Domain.Shared/2.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-8hb+5jUGhFP3EQMtkQNugLlOlKlfvR4bvcr87lRA77/+iAUxyEbyNxd0tXmkuYfeu6AxuaScRQxrwogIvh5sJg==",
-      "path": "volo.abp.users.domain.shared/2.9.0",
-      "hashPath": "volo.abp.users.domain.shared.2.9.0.nupkg.sha512"
     },
     "ProductManagement.Application.Contracts/1.0.0": {
       "type": "project",
@@ -4641,6 +4248,16 @@
       "sha512": ""
     },
     "Microsoft.AspNetCore.Cors/3.1.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Cryptography.Internal/3.1.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -4940,6 +4557,16 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.Extensions.Caching.Abstractions/3.1.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Caching.Memory/3.1.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Microsoft.Extensions.Configuration.Ini/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
@@ -4976,6 +4603,11 @@
       "sha512": ""
     },
     "Microsoft.Extensions.Http/3.1.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Identity.Core/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -5051,6 +4683,11 @@
       "sha512": ""
     },
     "Microsoft.Win32.Primitives/4.1.2.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Win32.Registry/4.1.3.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -5171,6 +4808,11 @@
       "sha512": ""
     },
     "System.Diagnostics.DiagnosticSource/4.0.5.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Diagnostics.EventLog/4.0.2.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -5296,6 +4938,11 @@
       "sha512": ""
     },
     "System.IO.MemoryMappedFiles/4.1.2.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IO.Pipelines/4.0.2.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -5575,12 +5222,22 @@
       "serviceable": false,
       "sha512": ""
     },
+    "System.Security.AccessControl/4.1.1.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
     "System.Security.Claims/4.1.2.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
     },
     "System.Security.Cryptography.Algorithms/4.3.2.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.Cng/4.3.3.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -5605,12 +5262,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "System.Security.Cryptography.Xml/4.0.3.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
     "System.Security/4.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
     },
+    "System.Security.Permissions/4.0.3.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
     "System.Security.Principal/4.1.2.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Security.Principal.Windows/4.1.1.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -5645,7 +5317,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Text.Encodings.Web.Reference/4.0.5.0": {
+    "System.Text.Encodings.Web/4.0.5.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -5731,6 +5403,11 @@
       "sha512": ""
     },
     "System.Windows/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Extensions/4.0.1.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

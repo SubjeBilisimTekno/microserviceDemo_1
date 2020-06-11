@@ -1,56 +1,79 @@
-2020-06-05 17:50:59.983 +03:00 [INF] Starting IdentityService.Host.
-2020-06-05 17:51:17.702 +03:00 [FTL] IdentityService.Host terminated unexpectedly!
-Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module InternalGateway.Host.InternalGatewayHostModule, InternalGateway.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
- ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 7s ago, v: 2.0.593.37019
-   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(Object configuration, TextWriter log) in C:\projects\stackexchange-redis\src\StackExchange.Redis\ConnectionMultiplexer.cs:line 942
-   at StackExchange.Redis.ConnectionMultiplexer.Connect(String configuration, TextWriter log) in C:\projects\stackexchange-redis\src\StackExchange.Redis\ConnectionMultiplexer.cs:line 903
-   at InternalGateway.Host.InternalGatewayHostModule.ConfigureServices(ServiceConfigurationContext context) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\gateways\InternalGateway.Host\InternalGatewayHostModule.cs:line 79
-   at Volo.Abp.AbpApplicationBase.ConfigureServices() in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationBase.cs:line 131
-   --- End of inner exception stack trace ---
-   at Volo.Abp.AbpApplicationBase.ConfigureServices() in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationBase.cs:line 135
-   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationBase.cs:line 46
-   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationWithExternalServiceProvider.cs:line 13
-   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationFactory.cs:line 37
-   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationFactory.cs:line 29
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Microsoft\Extensions\DependencyInjection\ServiceCollectionApplicationExtensions.cs:line 15
-   at InternalGateway.Host.Startup.ConfigureServices(IServiceCollection services) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\gateways\InternalGateway.Host\Startup.cs:line 14
-   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
-   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
-   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
-   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
-   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
-   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
-   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at InternalGateway.Host.Program.Main(String[] args) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\gateways\InternalGateway.Host\Program.cs:line 42
-2020-06-05 18:06:22.644 +03:00 [INF] Starting IdentityService.Host.
-2020-06-08 18:37:32.007 +03:00 [INF] Starting IdentityService.Host.
-2020-06-08 18:37:53.150 +03:00 [FTL] IdentityService.Host terminated unexpectedly!
-Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module InternalGateway.Host.InternalGatewayHostModule, InternalGateway.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
- ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 7s ago, v: 2.0.593.37019
-   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(Object configuration, TextWriter log) in C:\projects\stackexchange-redis\src\StackExchange.Redis\ConnectionMultiplexer.cs:line 942
-   at StackExchange.Redis.ConnectionMultiplexer.Connect(String configuration, TextWriter log) in C:\projects\stackexchange-redis\src\StackExchange.Redis\ConnectionMultiplexer.cs:line 903
-   at InternalGateway.Host.InternalGatewayHostModule.ConfigureServices(ServiceConfigurationContext context) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\gateways\InternalGateway.Host\InternalGatewayHostModule.cs:line 79
-   at Volo.Abp.AbpApplicationBase.ConfigureServices() in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationBase.cs:line 131
-   --- End of inner exception stack trace ---
-   at Volo.Abp.AbpApplicationBase.ConfigureServices() in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationBase.cs:line 135
-   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationBase.cs:line 46
-   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationWithExternalServiceProvider.cs:line 13
-   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationFactory.cs:line 37
-   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationFactory.cs:line 29
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Microsoft\Extensions\DependencyInjection\ServiceCollectionApplicationExtensions.cs:line 15
-   at InternalGateway.Host.Startup.ConfigureServices(IServiceCollection services) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\gateways\InternalGateway.Host\Startup.cs:line 14
-   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
-   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
-   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
-   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
-   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
-   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
-   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at InternalGateway.Host.Program.Main(String[] args) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\gateways\InternalGateway.Host\Program.cs:line 42
-2020-06-08 18:40:36.305 +03:00 [INF] Starting IdentityService.Host.
+2020-06-11 16:02:27.036 +03:00 [INF] Starting IdentityService.Host.
+2020-06-11 16:02:34.730 +03:00 [INF] Loaded ABP modules:
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-06-11 16:02:34.731 +03:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Blogging.BloggingHttpApiModule
+2020-06-11 16:02:34.732 +03:00 [INF] - ProductManagement.ProductManagementDomainSharedModule
+2020-06-11 16:02:34.732 +03:00 [INF] - ProductManagement.ProductManagementApplicationContractsModule
+2020-06-11 16:02:34.732 +03:00 [INF] - ProductManagement.ProductManagementHttpApiModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2020-06-11 16:02:34.732 +03:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-06-11 16:02:34.732 +03:00 [INF] - InternalGateway.Host.InternalGatewayHostModule
+2020-06-11 16:02:35.905 +03:00 [INF] Initialized all ABP modules.
+2020-06-11 16:02:35.938 +03:00 [INF] Now listening on: http://localhost:65129
+2020-06-11 16:02:35.938 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-11 16:02:35.938 +03:00 [INF] Hosting environment: Development
+2020-06-11 16:02:35.938 +03:00 [INF] Content root path: C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\samples\MicroserviceDemo\gateways\InternalGateway.Host
+2020-06-11 16:02:36.845 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:65129/  
+2020-06-11 16:02:36.945 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-11 16:02:37.042 +03:00 [DBG] requestId: 0HM0E0UR6GOG5:00000001, previousRequestId: no previous request id, message: ocelot pipeline started
+2020-06-11 16:02:37.047 +03:00 [DBG] requestId: 0HM0E0UR6GOG5:00000001, previousRequestId: no previous request id, message: Upstream url path is /
+2020-06-11 16:02:37.064 +03:00 [WRN] requestId: 0HM0E0UR6GOG5:00000001, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2020-06-11 16:02:37.065 +03:00 [WRN] requestId: 0HM0E0UR6GOG5:00000001, previousRequestId: no previous request id, message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2020-06-11 16:02:37.068 +03:00 [WRN] requestId: 0HM0E0UR6GOG5:00000001, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/, request method: GET
+2020-06-11 16:02:37.069 +03:00 [DBG] requestId: 0HM0E0UR6GOG5:00000001, previousRequestId: no previous request id, message: ocelot pipeline finished
+2020-06-11 16:02:37.095 +03:00 [INF] Request finished in 252.8677ms 404 

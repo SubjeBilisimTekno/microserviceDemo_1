@@ -1,0 +1,67 @@
+2020-06-11 16:06:19.739 +03:00 [INF] Starting IdentityService.Host.
+2020-06-11 16:06:26.868 +03:00 [INF] Loaded ABP modules:
+2020-06-11 16:06:26.869 +03:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-06-11 16:06:26.869 +03:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-06-11 16:06:26.869 +03:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-06-11 16:06:26.869 +03:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-06-11 16:06:26.869 +03:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-06-11 16:06:26.869 +03:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-06-11 16:06:26.869 +03:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-06-11 16:06:26.869 +03:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-06-11 16:06:26.869 +03:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-06-11 16:06:26.869 +03:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-06-11 16:06:26.869 +03:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Blogging.BloggingHttpApiModule
+2020-06-11 16:06:26.870 +03:00 [INF] - ProductManagement.ProductManagementDomainSharedModule
+2020-06-11 16:06:26.870 +03:00 [INF] - ProductManagement.ProductManagementApplicationContractsModule
+2020-06-11 16:06:26.870 +03:00 [INF] - ProductManagement.ProductManagementHttpApiModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-06-11 16:06:26.870 +03:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-06-11 16:06:26.870 +03:00 [INF] - PublicWebSiteGateway.Host.PublicWebSiteGatewayHostModule
+2020-06-11 16:06:27.853 +03:00 [INF] Initialized all ABP modules.
+2020-06-11 16:06:27.891 +03:00 [INF] Now listening on: http://localhost:64897
+2020-06-11 16:06:27.892 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-11 16:06:27.892 +03:00 [INF] Hosting environment: Development
+2020-06-11 16:06:27.892 +03:00 [INF] Content root path: C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\samples\MicroserviceDemo\gateways\PublicWebSiteGateway.Host
+2020-06-11 16:06:28.906 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:64897/  
+2020-06-11 16:06:29.026 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-06-11 16:06:29.138 +03:00 [DBG] requestId: 0HM0E110AEH3I:00000001, previousRequestId: no previous request id, message: ocelot pipeline started
+2020-06-11 16:06:29.146 +03:00 [DBG] requestId: 0HM0E110AEH3I:00000001, previousRequestId: no previous request id, message: Upstream url path is /
+2020-06-11 16:06:29.168 +03:00 [WRN] requestId: 0HM0E110AEH3I:00000001, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2020-06-11 16:06:29.169 +03:00 [WRN] requestId: 0HM0E110AEH3I:00000001, previousRequestId: no previous request id, message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2020-06-11 16:06:29.170 +03:00 [WRN] requestId: 0HM0E110AEH3I:00000001, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/, request method: GET
+2020-06-11 16:06:29.172 +03:00 [DBG] requestId: 0HM0E110AEH3I:00000001, previousRequestId: no previous request id, message: ocelot pipeline finished
+2020-06-11 16:06:29.201 +03:00 [INF] Request finished in 298.0111ms 404 

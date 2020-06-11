@@ -1,30 +1,143 @@
-2020-06-05 17:56:40.856 +03:00 [INF] Starting BackendAdminApp.Host.
-2020-06-05 17:56:59.088 +03:00 [FTL] BackendAdminApp.Host terminated unexpectedly!
-Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module BackendAdminApp.Host.BackendAdminAppHostModule, BackendAdminApp.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
- ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). UnableToConnect on 127.0.0.1:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 2s ago, last-write: 2s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 7s ago, v: 2.0.593.37019
-   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(Object configuration, TextWriter log) in C:\projects\stackexchange-redis\src\StackExchange.Redis\ConnectionMultiplexer.cs:line 942
-   at StackExchange.Redis.ConnectionMultiplexer.Connect(String configuration, TextWriter log) in C:\projects\stackexchange-redis\src\StackExchange.Redis\ConnectionMultiplexer.cs:line 903
-   at BackendAdminApp.Host.BackendAdminAppHostModule.ConfigureServices(ServiceConfigurationContext context) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\applications\BackendAdminApp.Host\BackendAdminAppHostModule.cs:line 109
-   at Volo.Abp.AbpApplicationBase.ConfigureServices() in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationBase.cs:line 131
+2020-06-11 16:08:05.777 +03:00 [INF] Starting BackendAdminApp.Host.
+2020-06-11 16:08:14.027 +03:00 [INF] Loaded ABP modules:
+2020-06-11 16:08:14.028 +03:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-06-11 16:08:14.028 +03:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-06-11 16:08:14.028 +03:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-06-11 16:08:14.028 +03:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-06-11 16:08:14.028 +03:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-06-11 16:08:14.028 +03:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-06-11 16:08:14.028 +03:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-06-11 16:08:14.028 +03:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.Client.AbpAspNetCoreMvcClientModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.AspNetCore.Authentication.OAuth.AbpAspNetCoreAuthenticationOAuthModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Http.Client.IdentityModel.Web.AbpHttpClientIdentityModelWebModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-06-11 16:08:14.029 +03:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiClientModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.FeatureManagement.AbpFeatureManagementWebModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.TenantManagement.Web.AbpTenantManagementWebModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementHttpApiClientModule
+2020-06-11 16:08:14.030 +03:00 [INF] - ProductManagement.ProductManagementDomainSharedModule
+2020-06-11 16:08:14.030 +03:00 [INF] - ProductManagement.ProductManagementApplicationContractsModule
+2020-06-11 16:08:14.030 +03:00 [INF] - ProductManagement.ProductManagementHttpApiClientModule
+2020-06-11 16:08:14.030 +03:00 [INF] - ProductManagement.ProductManagementHttpApiModule
+2020-06-11 16:08:14.030 +03:00 [INF] - ProductManagement.ProductManagementWebModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2020-06-11 16:08:14.030 +03:00 [INF] - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiClientModule
+2020-06-11 16:08:14.030 +03:00 [INF] - BackendAdminApp.Host.BackendAdminAppHostModule
+2020-06-11 16:08:15.582 +03:00 [INF] Initialized all ABP modules.
+2020-06-11 16:08:15.628 +03:00 [INF] Now listening on: http://localhost:51954
+2020-06-11 16:08:15.629 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-11 16:08:15.629 +03:00 [INF] Hosting environment: Development
+2020-06-11 16:08:15.629 +03:00 [INF] Content root path: C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\samples\MicroserviceDemo\applications\BackendAdminApp.Host
+2020-06-11 16:08:16.496 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:51954/  
+2020-06-11 16:08:17.521 +03:00 [INF] Start processing HTTP request GET "http://localhost:65115/api/abp/api-definition"
+2020-06-11 16:08:17.531 +03:00 [INF] Sending HTTP request GET "http://localhost:65115/api/abp/api-definition"
+2020-06-11 16:08:23.798 +03:00 [INF] Sending HTTP request GET "http://localhost:65115/api/abp/api-definition"
+2020-06-11 16:08:31.927 +03:00 [INF] Sending HTTP request GET "http://localhost:65115/api/abp/api-definition"
+2020-06-11 16:08:44.034 +03:00 [INF] Sending HTTP request GET "http://localhost:65115/api/abp/api-definition"
+2020-06-11 16:08:51.125 +03:00 [ERR] Connection id "0HM0E120CUCSV", Request id "0HM0E120CUCSV:00000001": An unhandled exception was thrown by the application.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
    --- End of inner exception stack trace ---
-   at Volo.Abp.AbpApplicationBase.ConfigureServices() in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationBase.cs:line 135
-   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationBase.cs:line 46
-   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationWithExternalServiceProvider.cs:line 13
-   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationFactory.cs:line 37
-   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationFactory.cs:line 29
-   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\framework\src\Volo.Abp.Core\Microsoft\Extensions\DependencyInjection\ServiceCollectionApplicationExtensions.cs:line 15
-   at BackendAdminApp.Host.Startup.ConfigureServices(IServiceCollection services) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\applications\BackendAdminApp.Host\Startup.cs:line 14
-   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
-   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
-   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
-   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
-   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
-   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
-   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
-   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
-   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
-   at Microsoft.Extensions.Hosting.HostBuilder.Build()
-   at BackendAdminApp.Host.Program.Main(String[] args) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master\samples\MicroserviceDemo\applications\BackendAdminApp.Host\Program.cs:line 42
-2020-06-05 18:06:11.431 +03:00 [INF] Starting BackendAdminApp.Host.
-2020-06-08 17:25:27.887 +03:00 [INF] Starting BackendAdminApp.Host.
-2020-06-08 18:20:55.856 +03:00 [INF] Starting BackendAdminApp.Host.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)
+   at Microsoft.Extensions.Http.PolicyHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Volo.Abp.Http.Client.DynamicProxying.ApiDescriptionFinder.GetApiDescriptionFromServerAsync(HttpClient client, String baseUrl) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.Http.Client\Volo\Abp\Http\Client\DynamicProxying\ApiDescriptionFinder.cs:line 82
+   at Volo.Abp.Http.Client.DynamicProxying.ApiDescriptionCache.GetAsync(String baseUrl, Func`1 factory) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.Http.Client\Volo\Abp\Http\Client\DynamicProxying\ApiDescriptionCache.cs:line 35
+   at Volo.Abp.Http.Client.DynamicProxying.ApiDescriptionFinder.GetApiDescriptionAsync(HttpClient client, String baseUrl) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.Http.Client\Volo\Abp\Http\Client\DynamicProxying\ApiDescriptionFinder.cs:line 77
+   at Volo.Abp.Http.Client.DynamicProxying.ApiDescriptionFinder.FindActionAsync(HttpClient client, String baseUrl, Type serviceType, MethodInfo method) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.Http.Client\Volo\Abp\Http\Client\DynamicProxying\ApiDescriptionFinder.cs:line 33
+   at Volo.Abp.Http.Client.DynamicProxying.DynamicHttpProxyInterceptor`1.MakeRequestAsync(IAbpMethodInvocation invocation) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.Http.Client\Volo\Abp\Http\Client\DynamicProxying\DynamicHttpProxyInterceptor.cs:line 125
+   at Volo.Abp.Http.Client.DynamicProxying.DynamicHttpProxyInterceptor`1.MakeRequestAndGetResultAsync[T](IAbpMethodInvocation invocation) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.Http.Client\Volo\Abp\Http\Client\DynamicProxying\DynamicHttpProxyInterceptor.cs:line 108
+   at Volo.Abp.Http.Client.DynamicProxying.DynamicHttpProxyInterceptor`1.GetResultAsync(Task task, Type resultType) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.Http.Client\Volo\Abp\Http\Client\DynamicProxying\DynamicHttpProxyInterceptor.cs:line 99
+   at Volo.Abp.Http.Client.DynamicProxying.DynamicHttpProxyInterceptor`1.InterceptAsync(IAbpMethodInvocation invocation) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.Http.Client\Volo\Abp\Http\Client\DynamicProxying\DynamicHttpProxyInterceptor.cs:line 89
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.Castle.Core\Volo\Abp\Castle\DynamicProxy\CastleAsyncAbpInterceptorAdapter.cs:line 29
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync() in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.Castle.Core\Volo\Abp\Castle\DynamicProxy\CastleAbpMethodInvocationAdapterWithReturnValue.cs:line 24
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.Validation\Volo\Abp\Validation\ValidationInterceptor.cs:line 19
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.Castle.Core\Volo\Abp\Castle\DynamicProxy\CastleAsyncAbpInterceptorAdapter.cs:line 29
+   at Volo.Abp.AspNetCore.Mvc.Client.CachedApplicationConfigurationClient.<GetAsync>b__13_0() in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.AspNetCore.Mvc.Client\Volo\Abp\AspNetCore\Mvc\Client\CachedApplicationConfigurationClient.cs:line 46
+   at Volo.Abp.Caching.DistributedCache`2.GetOrAddAsync(TCacheKey key, Func`1 factory, Func`1 optionsFactory, Nullable`1 hideErrors, CancellationToken token) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.Caching\Volo\Abp\Caching\DistributedCache.cs:line 276
+   at Volo.Abp.AspNetCore.Mvc.Client.CachedApplicationConfigurationClient.GetAsync() in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.AspNetCore.Mvc.Client\Volo\Abp\AspNetCore\Mvc\Client\CachedApplicationConfigurationClient.cs:line 44
+   at Volo.Abp.AspNetCore.Mvc.Client.RemoteLanguageProvider.GetLanguagesAsync() in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.AspNetCore.Mvc.Client\Volo\Abp\AspNetCore\Mvc\Client\RemoteLanguageProvider.cs:line 19
+   at Microsoft.AspNetCore.RequestLocalization.DefaultAbpRequestLocalizationOptionsProvider.GetLocalizationOptionsAsync() in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.AspNetCore\Microsoft\AspNetCore\RequestLocalization\DefaultAbpRequestLocalizationOptionsProvider.cs:line 58
+   at Microsoft.AspNetCore.RequestLocalization.AbpRequestLocalizationMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.AspNetCore\Microsoft\AspNetCore\RequestLocalization\AbpRequestLocalizationMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.AspNetCore.MultiTenancy\Volo\Abp\AspNetCore\MultiTenancy\MultiTenancyMiddleware.cs:line 50
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\aykut\OneDrive\Desktop\microservices\06042020\abp-master1\abp-master\framework\src\Volo.Abp.AspNetCore\Volo\Abp\AspNetCore\Tracing\AbpCorrelationIdMiddleware.cs:line 27
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2020-06-11 16:08:51.470 +03:00 [INF] Request finished in 34975.7814ms 500 

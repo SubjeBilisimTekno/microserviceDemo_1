@@ -30,12 +30,6 @@
           "build/_._": {}
         }
       },
-      "Fody/6.0.2": {
-        "type": "package",
-        "build": {
-          "build/_._": {}
-        }
-      },
       "JetBrains.Annotations/2019.1.3": {
         "type": "package",
         "compile": {
@@ -57,27 +51,6 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Cryptography.Internal/3.1.2": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Cryptography.KeyDerivation/3.1.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.Internal": "3.1.2"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
         }
       },
       "Microsoft.AspNetCore.JsonPatch/3.1.2": {
@@ -314,33 +287,6 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/3.1.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.2"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Caching.Memory/3.1.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "3.1.2",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.2",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.2",
-          "Microsoft.Extensions.Options": "3.1.2"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/3.1.2": {
         "type": "package",
         "dependencies": {
@@ -534,20 +480,6 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Identity.Core/3.1.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "3.1.2",
-          "Microsoft.Extensions.Logging": "3.1.2",
-          "Microsoft.Extensions.Options": "3.1.2"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll": {}
         }
       },
       "Microsoft.Extensions.Localization/3.1.2": {
@@ -1093,15 +1025,6 @@
           }
         }
       },
-      "System.Text.Encodings.Web/4.7.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
-        }
-      },
       "System.Text.Json/4.7.1": {
         "type": "package",
         "compile": {
@@ -1153,230 +1076,6 @@
           "lib/netstandard2.0/TimeZoneConverter.dll": {}
         }
       },
-      "Volo.Abp.Account.Application/2.9.0": {
-        "type": "package",
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "System.Text.Encodings.Web": "4.7.0",
-          "Volo.Abp.Account.Application.Contracts": "2.9.0",
-          "Volo.Abp.Identity.Application": "2.9.0",
-          "Volo.Abp.UI.Navigation": "2.9.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Account.Application.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Account.Application.dll": {}
-        }
-      },
-      "Volo.Abp.Account.Application.Contracts/2.9.0": {
-        "type": "package",
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Identity.Application.Contracts": "2.9.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Account.Application.Contracts.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Account.Application.Contracts.dll": {}
-        }
-      },
-      "Volo.Abp.Caching/2.9.0": {
-        "type": "package",
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Microsoft.Extensions.Caching.Memory": "3.1.2",
-          "Volo.Abp.Json": "2.9.0",
-          "Volo.Abp.MultiTenancy": "2.9.0",
-          "Volo.Abp.Serialization": "2.9.0",
-          "Volo.Abp.Threading": "2.9.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Caching.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Caching.dll": {}
-        }
-      },
-      "Volo.Abp.Identity.Application/2.9.0": {
-        "type": "package",
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.AutoMapper": "2.9.0",
-          "Volo.Abp.Identity.Application.Contracts": "2.9.0",
-          "Volo.Abp.Identity.Domain": "2.9.0",
-          "Volo.Abp.PermissionManagement.Application": "2.9.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Application.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Application.dll": {}
-        }
-      },
-      "Volo.Abp.Identity.Application.Contracts/2.9.0": {
-        "type": "package",
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Authorization": "2.9.0",
-          "Volo.Abp.Ddd.Application": "2.9.0",
-          "Volo.Abp.Identity.Domain.Shared": "2.9.0",
-          "Volo.Abp.PermissionManagement.Application.Contracts": "2.9.0",
-          "Volo.Abp.Users.Abstractions": "2.9.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Application.Contracts.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Application.Contracts.dll": {}
-        }
-      },
-      "Volo.Abp.Identity.Domain/2.9.0": {
-        "type": "package",
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Microsoft.Extensions.Identity.Core": "3.1.2",
-          "Volo.Abp.AutoMapper": "2.9.0",
-          "Volo.Abp.Ddd.Domain": "2.9.0",
-          "Volo.Abp.Identity.Domain.Shared": "2.9.0",
-          "Volo.Abp.Users.Domain": "2.9.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Domain.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Domain.dll": {}
-        }
-      },
-      "Volo.Abp.Identity.Domain.Shared/2.9.0": {
-        "type": "package",
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Users.Domain.Shared": "2.9.0",
-          "Volo.Abp.Validation": "2.9.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Domain.Shared.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Identity.Domain.Shared.dll": {}
-        }
-      },
-      "Volo.Abp.PermissionManagement.Application/2.9.0": {
-        "type": "package",
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.PermissionManagement.Application.Contracts": "2.9.0",
-          "Volo.Abp.PermissionManagement.Domain": "2.9.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.dll": {}
-        }
-      },
-      "Volo.Abp.PermissionManagement.Application.Contracts/2.9.0": {
-        "type": "package",
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Authorization": "2.9.0",
-          "Volo.Abp.Ddd.Application": "2.9.0",
-          "Volo.Abp.PermissionManagement.Domain.Shared": "2.9.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.Contracts.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.Contracts.dll": {}
-        }
-      },
-      "Volo.Abp.PermissionManagement.Domain/2.9.0": {
-        "type": "package",
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Authorization": "2.9.0",
-          "Volo.Abp.Caching": "2.9.0",
-          "Volo.Abp.Ddd.Domain": "2.9.0",
-          "Volo.Abp.Json": "2.9.0",
-          "Volo.Abp.PermissionManagement.Domain.Shared": "2.9.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.dll": {}
-        }
-      },
-      "Volo.Abp.PermissionManagement.Domain.Shared/2.9.0": {
-        "type": "package",
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Validation": "2.9.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.Shared.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.Shared.dll": {}
-        }
-      },
-      "Volo.Abp.Serialization/2.9.0": {
-        "type": "package",
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Core": "2.9.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Serialization.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Serialization.dll": {}
-        }
-      },
-      "Volo.Abp.Users.Abstractions/2.9.0": {
-        "type": "package",
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.EventBus": "2.9.0",
-          "Volo.Abp.MultiTenancy": "2.9.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Users.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Users.Abstractions.dll": {}
-        }
-      },
-      "Volo.Abp.Users.Domain/2.9.0": {
-        "type": "package",
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Ddd.Domain": "2.9.0",
-          "Volo.Abp.Users.Abstractions": "2.9.0",
-          "Volo.Abp.Users.Domain.Shared": "2.9.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Users.Domain.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Users.Domain.dll": {}
-        }
-      },
-      "Volo.Abp.Users.Domain.Shared/2.9.0": {
-        "type": "package",
-        "dependencies": {
-          "ConfigureAwait.Fody": "3.3.1",
-          "Volo.Abp.Core": "2.9.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Users.Domain.Shared.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Users.Domain.Shared.dll": {}
-        }
-      },
       "ProductManagement.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1395,8 +1094,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Volo.Abp.Account.Application": "2.9.0",
-          "Volo.Abp.Account.Application.Contracts": "2.9.0",
           "Volo.Abp.Ddd.Domain": "2.9.0",
           "Volo.Abp.Localization": "2.9.0"
         },
@@ -1419,10 +1116,7 @@
         },
         "runtime": {
           "bin/placeholder/ProductManagement.HttpApi.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Volo.Abp.ApiVersioning.Abstractions/2.9.0": {
         "type": "project",
@@ -2113,38 +1807,6 @@
         "weaver/ConfigureAwait.Fody.xcf"
       ]
     },
-    "Fody/6.0.2": {
-      "sha512": "Oq9dxiHWkw/tPKu9LSmfp6uuCNDZLDkxwHB0sJuwyQRSmvFSB3Ab54WgCQWIsGDO9Z+va9expamqkKpFfdd1sQ==",
-      "type": "package",
-      "path": "fody/6.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Fody.targets",
-        "fody.6.0.2.nupkg.sha512",
-        "fody.nuspec",
-        "netclassictask/Fody.dll",
-        "netclassictask/FodyCommon.dll",
-        "netclassictask/FodyHelpers.dll",
-        "netclassictask/FodyIsolated.dll",
-        "netclassictask/Mono.Cecil.Pdb.dll",
-        "netclassictask/Mono.Cecil.Pdb.pdb",
-        "netclassictask/Mono.Cecil.Rocks.dll",
-        "netclassictask/Mono.Cecil.Rocks.pdb",
-        "netclassictask/Mono.Cecil.dll",
-        "netclassictask/Mono.Cecil.pdb",
-        "netstandardtask/Fody.dll",
-        "netstandardtask/FodyCommon.dll",
-        "netstandardtask/FodyHelpers.dll",
-        "netstandardtask/FodyIsolated.dll",
-        "netstandardtask/Mono.Cecil.Pdb.dll",
-        "netstandardtask/Mono.Cecil.Pdb.pdb",
-        "netstandardtask/Mono.Cecil.Rocks.dll",
-        "netstandardtask/Mono.Cecil.Rocks.pdb",
-        "netstandardtask/Mono.Cecil.dll",
-        "netstandardtask/Mono.Cecil.pdb"
-      ]
-    },
     "JetBrains.Annotations/2019.1.3": {
       "sha512": "E0x48BwZJKoNMNCekWGKsV4saQS89lf58ydT2szseV44CMYIbaHXjc7+305WLw6up3ibZN9yH6QdGSZo5tQhLg==",
       "type": "package",
@@ -2180,40 +1842,6 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
         "microsoft.aspnetcore.authorization.3.1.2.nupkg.sha512",
         "microsoft.aspnetcore.authorization.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Cryptography.Internal/3.1.2": {
-      "sha512": "Yi69aUt2rZsMor/eIEy7IgDoh/bZ6Lx0ZD3p9FZeU2zw+LIjERghrA8fOJUfpacJxBlWqcf9YkIzD85SSJ0u7Q==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.cryptography.internal/3.1.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll",
-        "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.xml",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
-        "microsoft.aspnetcore.cryptography.internal.3.1.2.nupkg.sha512",
-        "microsoft.aspnetcore.cryptography.internal.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Cryptography.KeyDerivation/3.1.2": {
-      "sha512": "p5ZGlen0a0eIBHBRBj+4XgArONulCZmE4X8rc91n6O4ZneRkLDKvyMiKC9f20t5Bf42cILkj/YjjrcdLYPmcXQ==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.cryptography.keyderivation/3.1.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
-        "lib/netcoreapp2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
-        "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
-        "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
-        "microsoft.aspnetcore.cryptography.keyderivation.3.1.2.nupkg.sha512",
-        "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
       ]
     },
     "Microsoft.AspNetCore.JsonPatch/3.1.2": {
@@ -2502,38 +2130,6 @@
         "version.txt"
       ]
     },
-    "Microsoft.Extensions.Caching.Abstractions/3.1.2": {
-      "sha512": "UfMC7L+8ha05PUAfVpmMS0kb7C1BoOrWxN70706D50qWohXLYgkUsu22oS7zkd9amCPTCmhRm2z/LisN8SESgg==",
-      "type": "package",
-      "path": "microsoft.extensions.caching.abstractions/3.1.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
-        "microsoft.extensions.caching.abstractions.3.1.2.nupkg.sha512",
-        "microsoft.extensions.caching.abstractions.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Caching.Memory/3.1.2": {
-      "sha512": "4O/YgpVhK/ZIYteGy9LyJv+YRcTxLOe7AnMUHBj1m1U40Er1/dbMymFTH1HrRS/fkVB90un24JhG+c1qSWjjjA==",
-      "type": "package",
-      "path": "microsoft.extensions.caching.memory/3.1.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
-        "microsoft.extensions.caching.memory.3.1.2.nupkg.sha512",
-        "microsoft.extensions.caching.memory.nuspec"
-      ]
-    },
     "Microsoft.Extensions.Configuration/3.1.2": {
       "sha512": "BxwRSBab309SYMCDCFyB6eSc7FnX5m9kOJQHw2IQIyb5PEtpfslhscTw63Gwhl3dPnaM1VGFXIyI0BVgpiLgOw==",
       "type": "package",
@@ -2796,22 +2392,6 @@
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
         "microsoft.extensions.hosting.abstractions.3.1.2.nupkg.sha512",
         "microsoft.extensions.hosting.abstractions.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Identity.Core/3.1.2": {
-      "sha512": "C6jXkZ8JbrOl9EI+awhLbPCq61+I4oV7ePErIm8C+Kp8LpVK1HmnUuOZBjyyBsSYk3AazxGYHviquGyyVlOW8A==",
-      "type": "package",
-      "path": "microsoft.extensions.identity.core/3.1.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Identity.Core.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.xml",
-        "microsoft.extensions.identity.core.3.1.2.nupkg.sha512",
-        "microsoft.extensions.identity.core.nuspec"
       ]
     },
     "Microsoft.Extensions.Localization/3.1.2": {
@@ -4610,27 +4190,6 @@
         "version.txt"
       ]
     },
-    "System.Text.Encodings.Web/4.7.0": {
-      "sha512": "IJanJWPQvya2sbGStt3Fkdy4IaomUBSadAfYWeJDQw0zclMk9ixSvMeei6cSmTTQ6ZkGIIAbhHZVCoLR7GgX7Q==",
-      "type": "package",
-      "path": "system.text.encodings.web/4.7.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
-        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
-        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
-        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
-        "lib/netstandard2.1/System.Text.Encodings.Web.dll",
-        "lib/netstandard2.1/System.Text.Encodings.Web.xml",
-        "system.text.encodings.web.4.7.0.nupkg.sha512",
-        "system.text.encodings.web.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Text.Json/4.7.1": {
       "sha512": "XwzMbct3iNepJaFylN1+l8weWlFburEzXidqleSsLvSXdHSIJHEKtRVKHPlpWcFmJX6k3goPFfVgUfp40RR+bg==",
       "type": "package",
@@ -4850,201 +4409,6 @@
         "lib/netstandard2.0/TimeZoneConverter.xml",
         "timezoneconverter.3.2.0.nupkg.sha512",
         "timezoneconverter.nuspec"
-      ]
-    },
-    "Volo.Abp.Account.Application/2.9.0": {
-      "sha512": "n/eWT2sMHUf0nkcM9w6lT68plOsS8r34o6jj6AmlW/qAGpcEwe4xFWP5Ic/HQN1qgppf9P5L6jNRROvb8JMi+g==",
-      "type": "package",
-      "path": "volo.abp.account.application/2.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Account.Application.dll",
-        "lib/netstandard2.0/Volo.Abp.Account.Application.pdb",
-        "volo.abp.account.application.2.9.0.nupkg.sha512",
-        "volo.abp.account.application.nuspec"
-      ]
-    },
-    "Volo.Abp.Account.Application.Contracts/2.9.0": {
-      "sha512": "fnLbKKp6uL9KQR1NaMB4HyhhoCoJT75YHDF0WeA93dzp0AXJ9RoLtfzX5gJhU3K5OIiJM+hpgASC9xCFSJtVbQ==",
-      "type": "package",
-      "path": "volo.abp.account.application.contracts/2.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Account.Application.Contracts.dll",
-        "lib/netstandard2.0/Volo.Abp.Account.Application.Contracts.pdb",
-        "volo.abp.account.application.contracts.2.9.0.nupkg.sha512",
-        "volo.abp.account.application.contracts.nuspec"
-      ]
-    },
-    "Volo.Abp.Caching/2.9.0": {
-      "sha512": "DshsWA2CiqLK6uPSeW7hPdEvNgbWXrtG7UQTwvTn+FxwzjJacQnTh/fSUbq4BXuXmpS3r0/rzPW/Ch2bygq/kw==",
-      "type": "package",
-      "path": "volo.abp.caching/2.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Caching.dll",
-        "lib/netstandard2.0/Volo.Abp.Caching.pdb",
-        "volo.abp.caching.2.9.0.nupkg.sha512",
-        "volo.abp.caching.nuspec"
-      ]
-    },
-    "Volo.Abp.Identity.Application/2.9.0": {
-      "sha512": "DjwAIyT6V8dEcuOdAly6gXoDcTIJSDSrjNggZAaP2i9TCStnnnPidIsPnnh1yn6j9W8K2waq+PdFdQWGWimTHQ==",
-      "type": "package",
-      "path": "volo.abp.identity.application/2.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Identity.Application.dll",
-        "lib/netstandard2.0/Volo.Abp.Identity.Application.pdb",
-        "volo.abp.identity.application.2.9.0.nupkg.sha512",
-        "volo.abp.identity.application.nuspec"
-      ]
-    },
-    "Volo.Abp.Identity.Application.Contracts/2.9.0": {
-      "sha512": "iP0MBbAvxqPuQz3qPfbnzT6gYsKsZ1QkaNQwuxcFlNw12BqHLXktWWxlgyxH/Pa2E/QrF0MoYXnTP3PloahywA==",
-      "type": "package",
-      "path": "volo.abp.identity.application.contracts/2.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Identity.Application.Contracts.dll",
-        "lib/netstandard2.0/Volo.Abp.Identity.Application.Contracts.pdb",
-        "volo.abp.identity.application.contracts.2.9.0.nupkg.sha512",
-        "volo.abp.identity.application.contracts.nuspec"
-      ]
-    },
-    "Volo.Abp.Identity.Domain/2.9.0": {
-      "sha512": "3rBNtB3FNeHuzM94Y9oaZ1Eyf/n+5yQIfExQqFfkLSDzQmuKVDc0nHWeenH73oftwyJUNUXHQAopluCwZROQMg==",
-      "type": "package",
-      "path": "volo.abp.identity.domain/2.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Identity.Domain.dll",
-        "lib/netstandard2.0/Volo.Abp.Identity.Domain.pdb",
-        "volo.abp.identity.domain.2.9.0.nupkg.sha512",
-        "volo.abp.identity.domain.nuspec"
-      ]
-    },
-    "Volo.Abp.Identity.Domain.Shared/2.9.0": {
-      "sha512": "pMI2RBBUFW44HTVNHNAqc5IYbX0qzWeOt1F4YLVxqD/xvHBYjS+mUj/ZH9CYPA6AN8RC/1FqG7iGE5TsVIaRvQ==",
-      "type": "package",
-      "path": "volo.abp.identity.domain.shared/2.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Identity.Domain.Shared.dll",
-        "lib/netstandard2.0/Volo.Abp.Identity.Domain.Shared.pdb",
-        "volo.abp.identity.domain.shared.2.9.0.nupkg.sha512",
-        "volo.abp.identity.domain.shared.nuspec"
-      ]
-    },
-    "Volo.Abp.PermissionManagement.Application/2.9.0": {
-      "sha512": "vRdOEblHfuN4IPqrfoTySptMSjeeEahF7S6VC8Ur/OCwHU01Rp9u2R3TrYiN1Q/f9idE4AnYZ4GVSbfG3BmqUQ==",
-      "type": "package",
-      "path": "volo.abp.permissionmanagement.application/2.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.dll",
-        "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.pdb",
-        "volo.abp.permissionmanagement.application.2.9.0.nupkg.sha512",
-        "volo.abp.permissionmanagement.application.nuspec"
-      ]
-    },
-    "Volo.Abp.PermissionManagement.Application.Contracts/2.9.0": {
-      "sha512": "BhS7Y+T1reAL7cO9UYzEOYh8b4tKKzam23IudrWOoegNi0Kui/bfV6WnJh77MQhESwJAO9csskizDl6hKqnFyw==",
-      "type": "package",
-      "path": "volo.abp.permissionmanagement.application.contracts/2.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.Contracts.dll",
-        "lib/netstandard2.0/Volo.Abp.PermissionManagement.Application.Contracts.pdb",
-        "volo.abp.permissionmanagement.application.contracts.2.9.0.nupkg.sha512",
-        "volo.abp.permissionmanagement.application.contracts.nuspec"
-      ]
-    },
-    "Volo.Abp.PermissionManagement.Domain/2.9.0": {
-      "sha512": "3/7q7RApXhk4pQ8Y0IGwfIBIXak+ltLVPR5f5us/gXO6CbIVQgTI0R0T+3pZ0WJKsazWT7BRcwC1rkC/nhgYPA==",
-      "type": "package",
-      "path": "volo.abp.permissionmanagement.domain/2.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.dll",
-        "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.pdb",
-        "volo.abp.permissionmanagement.domain.2.9.0.nupkg.sha512",
-        "volo.abp.permissionmanagement.domain.nuspec"
-      ]
-    },
-    "Volo.Abp.PermissionManagement.Domain.Shared/2.9.0": {
-      "sha512": "3fUO1SZbRyIdBW6bC/ZXAAOzI3YNJpGDZRHSd+pbe3V/+vt2YPHGQKHieEey5yOwL03opKgUlOBnBKlg9pJaTQ==",
-      "type": "package",
-      "path": "volo.abp.permissionmanagement.domain.shared/2.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.Shared.dll",
-        "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.Shared.pdb",
-        "volo.abp.permissionmanagement.domain.shared.2.9.0.nupkg.sha512",
-        "volo.abp.permissionmanagement.domain.shared.nuspec"
-      ]
-    },
-    "Volo.Abp.Serialization/2.9.0": {
-      "sha512": "UsmXI0jfmAZhClxMz6+cbm/04rBrzU82Jr4c2JrtUy1dvR80p4WSAGTEZtRILb3mgrx16n/U/W72imrwLswEmg==",
-      "type": "package",
-      "path": "volo.abp.serialization/2.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Serialization.dll",
-        "lib/netstandard2.0/Volo.Abp.Serialization.pdb",
-        "volo.abp.serialization.2.9.0.nupkg.sha512",
-        "volo.abp.serialization.nuspec"
-      ]
-    },
-    "Volo.Abp.Users.Abstractions/2.9.0": {
-      "sha512": "aMJzbBFdD6LkFOSf8ix8nPDD11VQOERb7dTflrVPAPjLDW2pOgH0wuJz8hiBmD3yttLaqRVJUBGOTwuTzvyzMg==",
-      "type": "package",
-      "path": "volo.abp.users.abstractions/2.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Users.Abstractions.dll",
-        "lib/netstandard2.0/Volo.Abp.Users.Abstractions.pdb",
-        "volo.abp.users.abstractions.2.9.0.nupkg.sha512",
-        "volo.abp.users.abstractions.nuspec"
-      ]
-    },
-    "Volo.Abp.Users.Domain/2.9.0": {
-      "sha512": "mrTcYRQ8bujoyfdJkGwRUP9bwvbgsjeuEkRsfTpyUP6HvfcN9nOmVKEis4f/anVcdmByolojNwmOpOnH+6fX8w==",
-      "type": "package",
-      "path": "volo.abp.users.domain/2.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Users.Domain.dll",
-        "lib/netstandard2.0/Volo.Abp.Users.Domain.pdb",
-        "volo.abp.users.domain.2.9.0.nupkg.sha512",
-        "volo.abp.users.domain.nuspec"
-      ]
-    },
-    "Volo.Abp.Users.Domain.Shared/2.9.0": {
-      "sha512": "8hb+5jUGhFP3EQMtkQNugLlOlKlfvR4bvcr87lRA77/+iAUxyEbyNxd0tXmkuYfeu6AxuaScRQxrwogIvh5sJg==",
-      "type": "package",
-      "path": "volo.abp.users.domain.shared/2.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Users.Domain.Shared.dll",
-        "lib/netstandard2.0/Volo.Abp.Users.Domain.Shared.pdb",
-        "volo.abp.users.domain.shared.2.9.0.nupkg.sha512",
-        "volo.abp.users.domain.shared.nuspec"
       ]
     },
     "ProductManagement.Application.Contracts/1.0.0": {
@@ -5278,11 +4642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Web\\ProductManagement.Web.csproj",
+      "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Web\\ProductManagement.Web.csproj",
       "projectName": "ProductManagement.Web",
-      "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Web\\ProductManagement.Web.csproj",
+      "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Web\\ProductManagement.Web.csproj",
       "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Web\\obj\\",
+      "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5303,14 +4667,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.csproj": {
-              "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.csproj"
+            "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.csproj": {
+              "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared\\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.csproj"
             },
-            "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.AutoMapper\\Volo.Abp.AutoMapper.csproj": {
-              "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.AutoMapper\\Volo.Abp.AutoMapper.csproj"
+            "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.AutoMapper\\Volo.Abp.AutoMapper.csproj": {
+              "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.AutoMapper\\Volo.Abp.AutoMapper.csproj"
             },
-            "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.HttpApi\\ProductManagement.HttpApi.csproj": {
-              "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.HttpApi\\ProductManagement.HttpApi.csproj"
+            "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.HttpApi\\ProductManagement.HttpApi.csproj": {
+              "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.HttpApi\\ProductManagement.HttpApi.csproj"
             }
           }
         }
@@ -5334,12 +4698,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5348,7 +4706,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

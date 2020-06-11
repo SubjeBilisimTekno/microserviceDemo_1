@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.Domain.Tests\\ProductManagement.Domain.Tests.csproj": {}
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.Domain.Tests\\ProductManagement.Domain.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj",
         "projectName": "Volo.Abp.Auditing",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Auditing\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Auditing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,23 +32,23 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj"
               }
             }
           }
@@ -95,18 +95,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj",
         "projectName": "Volo.Abp.Authorization",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Authorization\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Authorization\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -127,14 +127,14 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj"
               }
             }
           }
@@ -185,18 +185,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Autofac\\Volo.Abp.Autofac.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Autofac\\Volo.Abp.Autofac.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Autofac\\Volo.Abp.Autofac.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Autofac\\Volo.Abp.Autofac.csproj",
         "projectName": "Volo.Abp.Autofac",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Autofac\\Volo.Abp.Autofac.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Autofac\\Volo.Abp.Autofac.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Autofac\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Autofac\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -217,8 +217,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Castle.Core\\Volo.Abp.Castle.Core.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Castle.Core\\Volo.Abp.Castle.Core.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Castle.Core\\Volo.Abp.Castle.Core.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Castle.Core\\Volo.Abp.Castle.Core.csproj"
               }
             }
           }
@@ -277,18 +277,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Castle.Core\\Volo.Abp.Castle.Core.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Castle.Core\\Volo.Abp.Castle.Core.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Castle.Core\\Volo.Abp.Castle.Core.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Castle.Core\\Volo.Abp.Castle.Core.csproj",
         "projectName": "Volo.Abp.Castle.Core",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Castle.Core\\Volo.Abp.Castle.Core.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Castle.Core\\Volo.Abp.Castle.Core.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Castle.Core\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Castle.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -309,8 +309,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
               }
             }
           }
@@ -365,18 +365,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj",
         "projectName": "Volo.Abp.Core",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -509,18 +509,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj",
         "projectName": "Volo.Abp.Data",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Data\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -541,14 +541,14 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.ObjectExtending\\Volo.Abp.ObjectExtending.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.ObjectExtending\\Volo.Abp.ObjectExtending.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.ObjectExtending\\Volo.Abp.ObjectExtending.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.ObjectExtending\\Volo.Abp.ObjectExtending.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj"
               }
             }
           }
@@ -595,18 +595,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj",
         "projectName": "Volo.Abp.Ddd.Domain",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -627,32 +627,32 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Auditing\\Volo.Abp.Auditing.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EventBus\\Volo.Abp.EventBus.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EventBus\\Volo.Abp.EventBus.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EventBus\\Volo.Abp.EventBus.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EventBus\\Volo.Abp.EventBus.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Guids\\Volo.Abp.Guids.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Guids\\Volo.Abp.Guids.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Guids\\Volo.Abp.Guids.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Guids\\Volo.Abp.Guids.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj"
               }
             }
           }
@@ -699,18 +699,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore.Sqlite\\Volo.Abp.EntityFrameworkCore.Sqlite.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore.Sqlite\\Volo.Abp.EntityFrameworkCore.Sqlite.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore.Sqlite\\Volo.Abp.EntityFrameworkCore.Sqlite.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore.Sqlite\\Volo.Abp.EntityFrameworkCore.Sqlite.csproj",
         "projectName": "Volo.Abp.EntityFrameworkCore.Sqlite",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore.Sqlite\\Volo.Abp.EntityFrameworkCore.Sqlite.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore.Sqlite\\Volo.Abp.EntityFrameworkCore.Sqlite.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore.Sqlite\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore.Sqlite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -731,8 +731,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj"
               }
             }
           }
@@ -783,18 +783,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj",
         "projectName": "Volo.Abp.EntityFrameworkCore",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -815,11 +815,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj"
               }
             }
           }
@@ -874,18 +874,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EventBus\\Volo.Abp.EventBus.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EventBus\\Volo.Abp.EventBus.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EventBus\\Volo.Abp.EventBus.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EventBus\\Volo.Abp.EventBus.csproj",
         "projectName": "Volo.Abp.EventBus",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EventBus\\Volo.Abp.EventBus.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EventBus\\Volo.Abp.EventBus.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EventBus\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EventBus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -906,8 +906,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
               }
             }
           }
@@ -954,18 +954,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Guids\\Volo.Abp.Guids.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Guids\\Volo.Abp.Guids.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Guids\\Volo.Abp.Guids.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Guids\\Volo.Abp.Guids.csproj",
         "projectName": "Volo.Abp.Guids",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Guids\\Volo.Abp.Guids.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Guids\\Volo.Abp.Guids.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Guids\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Guids\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -986,8 +986,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
               }
             }
           }
@@ -1034,18 +1034,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj",
         "projectName": "Volo.Abp.Json",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Json\\Volo.Abp.Json.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Json\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Json\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1066,8 +1066,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj"
               }
             }
           }
@@ -1118,18 +1118,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj",
         "projectName": "Volo.Abp.Localization.Abstractions",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1150,8 +1150,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
               }
             }
           }
@@ -1198,18 +1198,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj",
         "projectName": "Volo.Abp.Localization",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1230,14 +1230,14 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj"
               }
             }
           }
@@ -1288,18 +1288,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj",
         "projectName": "Volo.Abp.MultiTenancy",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1320,11 +1320,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Data\\Volo.Abp.Data.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj"
               }
             }
           }
@@ -1371,18 +1371,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.ObjectExtending\\Volo.Abp.ObjectExtending.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.ObjectExtending\\Volo.Abp.ObjectExtending.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.ObjectExtending\\Volo.Abp.ObjectExtending.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.ObjectExtending\\Volo.Abp.ObjectExtending.csproj",
         "projectName": "Volo.Abp.ObjectExtending",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.ObjectExtending\\Volo.Abp.ObjectExtending.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.ObjectExtending\\Volo.Abp.ObjectExtending.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.ObjectExtending\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.ObjectExtending\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1403,11 +1403,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj"
               }
             }
           }
@@ -1454,18 +1454,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj",
         "projectName": "Volo.Abp.ObjectMapping",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.ObjectMapping\\Volo.Abp.ObjectMapping.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.ObjectMapping\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.ObjectMapping\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1486,8 +1486,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
               }
             }
           }
@@ -1534,18 +1534,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj",
         "projectName": "Volo.Abp.Security",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Security\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Security\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1566,8 +1566,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
               }
             }
           }
@@ -1614,18 +1614,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj",
         "projectName": "Volo.Abp.Settings",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Settings\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Settings\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1646,14 +1646,14 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization.Abstractions\\Volo.Abp.Localization.Abstractions.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.MultiTenancy\\Volo.Abp.MultiTenancy.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Security\\Volo.Abp.Security.csproj"
               }
             }
           }
@@ -1700,18 +1700,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.TestBase\\Volo.Abp.TestBase.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.TestBase\\Volo.Abp.TestBase.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.TestBase\\Volo.Abp.TestBase.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.TestBase\\Volo.Abp.TestBase.csproj",
         "projectName": "Volo.Abp.TestBase",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.TestBase\\Volo.Abp.TestBase.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.TestBase\\Volo.Abp.TestBase.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.TestBase\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.TestBase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1732,8 +1732,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
               }
             }
           }
@@ -1780,18 +1780,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj",
         "projectName": "Volo.Abp.Threading",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Threading\\Volo.Abp.Threading.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Threading\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Threading\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1812,8 +1812,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
               }
             }
           }
@@ -1860,18 +1860,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj",
         "projectName": "Volo.Abp.Timing",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Timing\\Volo.Abp.Timing.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Timing\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Timing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1892,14 +1892,14 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Settings\\Volo.Abp.Settings.csproj"
               }
             }
           }
@@ -1950,18 +1950,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj",
         "projectName": "Volo.Abp.Uow",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Uow\\Volo.Abp.Uow.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Uow\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Uow\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1982,8 +1982,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
               }
             }
           }
@@ -2030,18 +2030,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj",
         "projectName": "Volo.Abp.Validation.Abstractions",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Validation.Abstractions\\Volo.Abp.Validation.Abstractions.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Validation.Abstractions\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Validation.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -2062,8 +2062,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
               }
             }
           }
@@ -2110,18 +2110,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj": {
       "version": "2.9.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj",
         "projectName": "Volo.Abp.VirtualFileSystem",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.VirtualFileSystem\\Volo.Abp.VirtualFileSystem.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.VirtualFileSystem\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.VirtualFileSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -2142,8 +2142,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Core\\Volo.Abp.Core.csproj"
               }
             }
           }
@@ -2198,18 +2198,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain.Shared\\ProductManagement.Domain.Shared.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain.Shared\\ProductManagement.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain.Shared\\ProductManagement.Domain.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain.Shared\\ProductManagement.Domain.Shared.csproj",
         "projectName": "ProductManagement.Domain.Shared",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain.Shared\\ProductManagement.Domain.Shared.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain.Shared\\ProductManagement.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain.Shared\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -2230,11 +2230,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Ddd.Domain\\Volo.Abp.Ddd.Domain.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Localization\\Volo.Abp.Localization.csproj"
               }
             }
           }
@@ -2253,18 +2253,6 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
-            },
-            "Volo.Abp.Account.Application": {
-              "target": "Package",
-              "version": "[2.9.0, )"
-            },
-            "Volo.Abp.Account.Application.Contracts": {
-              "target": "Package",
-              "version": "[2.9.0, )"
-            },
-            "Volo.Abp.Localization": {
-              "target": "Package",
-              "version": "[2.9.0, )"
             }
           },
           "imports": [
@@ -2277,18 +2265,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\ProductManagement.Domain.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\ProductManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\ProductManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\ProductManagement.Domain.csproj",
         "projectName": "ProductManagement.Domain",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\ProductManagement.Domain.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\ProductManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -2309,11 +2297,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain.Shared\\ProductManagement.Domain.Shared.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain.Shared\\ProductManagement.Domain.Shared.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain.Shared\\ProductManagement.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain.Shared\\ProductManagement.Domain.Shared.csproj"
               }
             }
           }
@@ -2336,29 +2324,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.EntityFrameworkCore\\ProductManagement.EntityFrameworkCore.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.EntityFrameworkCore\\ProductManagement.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.EntityFrameworkCore\\ProductManagement.EntityFrameworkCore.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.EntityFrameworkCore\\ProductManagement.EntityFrameworkCore.csproj",
         "projectName": "ProductManagement.EntityFrameworkCore",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.EntityFrameworkCore\\ProductManagement.EntityFrameworkCore.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.EntityFrameworkCore\\ProductManagement.EntityFrameworkCore.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.EntityFrameworkCore\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -2379,11 +2361,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore\\Volo.Abp.EntityFrameworkCore.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\ProductManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\ProductManagement.Domain.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\ProductManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\ProductManagement.Domain.csproj"
               }
             }
           }
@@ -2412,29 +2394,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.Domain.Tests\\ProductManagement.Domain.Tests.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.Domain.Tests\\ProductManagement.Domain.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.Domain.Tests\\ProductManagement.Domain.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.Domain.Tests\\ProductManagement.Domain.Tests.csproj",
         "projectName": "ProductManagement.Domain.Tests",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.Domain.Tests\\ProductManagement.Domain.Tests.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.Domain.Tests\\ProductManagement.Domain.Tests.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.Domain.Tests\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.Domain.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -2455,8 +2431,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.EntityFrameworkCore.Tests\\ProductManagement.EntityFrameworkCore.Tests.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.EntityFrameworkCore.Tests\\ProductManagement.EntityFrameworkCore.Tests.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.EntityFrameworkCore.Tests\\ProductManagement.EntityFrameworkCore.Tests.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.EntityFrameworkCore.Tests\\ProductManagement.EntityFrameworkCore.Tests.csproj"
               }
             }
           }
@@ -2472,7 +2448,7 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.6.1, )"
+              "version": "[16.4.0, )"
             }
           },
           "imports": [
@@ -2485,29 +2461,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.EntityFrameworkCore.Tests\\ProductManagement.EntityFrameworkCore.Tests.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.EntityFrameworkCore.Tests\\ProductManagement.EntityFrameworkCore.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.EntityFrameworkCore.Tests\\ProductManagement.EntityFrameworkCore.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.EntityFrameworkCore.Tests\\ProductManagement.EntityFrameworkCore.Tests.csproj",
         "projectName": "ProductManagement.EntityFrameworkCore.Tests",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.EntityFrameworkCore.Tests\\ProductManagement.EntityFrameworkCore.Tests.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.EntityFrameworkCore.Tests\\ProductManagement.EntityFrameworkCore.Tests.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.EntityFrameworkCore.Tests\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.EntityFrameworkCore.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -2528,14 +2498,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore.Sqlite\\Volo.Abp.EntityFrameworkCore.Sqlite.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore.Sqlite\\Volo.Abp.EntityFrameworkCore.Sqlite.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore.Sqlite\\Volo.Abp.EntityFrameworkCore.Sqlite.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.EntityFrameworkCore.Sqlite\\Volo.Abp.EntityFrameworkCore.Sqlite.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.EntityFrameworkCore\\ProductManagement.EntityFrameworkCore.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.EntityFrameworkCore\\ProductManagement.EntityFrameworkCore.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.EntityFrameworkCore\\ProductManagement.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.EntityFrameworkCore\\ProductManagement.EntityFrameworkCore.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.TestBase\\ProductManagement.TestBase.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.TestBase\\ProductManagement.TestBase.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.TestBase\\ProductManagement.TestBase.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.TestBase\\ProductManagement.TestBase.csproj"
               }
             }
           }
@@ -2555,7 +2525,7 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.6.1, )"
+              "version": "[16.4.0, )"
             }
           },
           "imports": [
@@ -2568,29 +2538,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.TestBase\\ProductManagement.TestBase.csproj": {
+    "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.TestBase\\ProductManagement.TestBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.TestBase\\ProductManagement.TestBase.csproj",
+        "projectUniqueName": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.TestBase\\ProductManagement.TestBase.csproj",
         "projectName": "ProductManagement.TestBase",
-        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.TestBase\\ProductManagement.TestBase.csproj",
+        "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.TestBase\\ProductManagement.TestBase.csproj",
         "packagesPath": "C:\\Users\\aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.TestBase\\obj\\",
+        "outputPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\test\\ProductManagement.TestBase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -2611,17 +2575,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Authorization\\Volo.Abp.Authorization.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Autofac\\Volo.Abp.Autofac.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.Autofac\\Volo.Abp.Autofac.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Autofac\\Volo.Abp.Autofac.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.Autofac\\Volo.Abp.Autofac.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.TestBase\\Volo.Abp.TestBase.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\framework\\src\\Volo.Abp.TestBase\\Volo.Abp.TestBase.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.TestBase\\Volo.Abp.TestBase.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\framework\\src\\Volo.Abp.TestBase\\Volo.Abp.TestBase.csproj"
               },
-              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\ProductManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\ProductManagement.Domain.csproj"
+              "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\ProductManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\aykut\\OneDrive\\Desktop\\microservices\\06042020\\abp-master1\\abp-master\\samples\\MicroserviceDemo\\modules\\product\\src\\ProductManagement.Domain\\ProductManagement.Domain.csproj"
               }
             }
           }
@@ -2637,7 +2601,7 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.6.1, )"
+              "version": "[16.4.0, )"
             },
             "NSubstitute": {
               "target": "Package",
@@ -2656,10 +2620,8 @@
               "version": "[2.4.1, )"
             },
             "xunit.runner.visualstudio": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.4.2, )"
+              "version": "[2.4.1, )"
             }
           },
           "imports": [
@@ -2672,18 +2634,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
